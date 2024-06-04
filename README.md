@@ -27,7 +27,9 @@ The refernce of the frontend of this website was [https://www.figma.com/design/F
 ## Tech Stack
 
 The tech stack used in this project are:
+```bash
 1.Next Js
 2.Tailwind CSS
 3.Typescript
+```
 In a .tsx file, you can write TypeScript code alongside JSX elements, allowing you to create React components with type safety provided by TypeScript. This combination of TypeScript and JSX is particularly useful for large-scale applications where type checking can help catch errors early in the development process.
