@@ -45,30 +45,27 @@ const Home = () => {
           </Image>
         </div>
       </div>
-      <div className="flex justify-between">
-        {/* First image */}
+      <div className="flex-col justify-between ">
         <Image
           src='/assets/images/Frame 1.png'
           height={500}
           width={500}
           alt='frame1'
-          className='absolute z-10 top-20 left-2/3'>
+          className='absolute z-10 top-20 right-20'>
         </Image>
-        {/* Second image */}
         <Image
           src='/assets/images/iPhone-13-Pro-Front (1).png'
           height={300}
           width={500}
           alt='frame1'
-          className='absolute z-20 top-40 left-2/3'>
+          className='absolute z-20 top-40 right-20'>
         </Image>
-        {/* Third image */}
         <Image
           src='/assets/images/iPhone-13-Pro-Front.png'
           height={300}
           width={500}
           alt='frame1'
-          className='absolute z-30 top-20 left-2/3'>
+          className='absolute z-30 top-20 right-40'>
         </Image>
       </div>
     </div>
